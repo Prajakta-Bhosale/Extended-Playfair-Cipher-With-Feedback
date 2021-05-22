@@ -1,1 +1,1 @@
-web: gunicorn app:extendedPlayfair
+web: gunicorn app:app
