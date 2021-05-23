@@ -260,7 +260,7 @@ def decrypt2(key1,key2,ct_triplets):
     #return(fpt_triplets)
     return(decrypt1(key1,key2,fpt_triplets))
 
-@app.route('/ExtendedPlayfair',methods=['GET','POST'])
+@app.route('/',methods=['GET','POST'])
 def ExtendedPlayfair():
 	if request.method == 'POST':
 		ip = request.form['plaintext']
