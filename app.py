@@ -4,7 +4,7 @@ app = Flask(__name__)
 import string
 def create_mat(key):
     chars = "abcdefghijklmnopqrstuvwxyz0123456789"
-    
+    key = key.lower()
     #print(chars)
     #key = "playfair eg"
     mat = ['' for i in range(6)]
